@@ -1,0 +1,189 @@
+/* app.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbutton {
+    
+    background-color: white;
+    border: 4px solid black; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside the button */
+    text-decoration: none; /* Remove underline from links if used */
+    display: inline-block; /* Align buttons side by side */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition on hover */
+    cursor: pointer; /*home Pointer cursor on hover */
+}
+
+#homebutton{
+    position: relative;
+    top: 30px;
+    left: 32px;
+}
+#mirage{
+    padding: 13px;
+    position: relative;
+    top: 50px;
+    left: 32px;
+}
+#inferno{
+    padding: 11px;
+    position: relative;
+    top: 70px;
+    left: 32px;
+}
+#dust{
+    padding: 16px;
+    position: relative;
+    top: 90px;
+    left: 32px;
+}
+#vertigo{
+    padding: 11px;
+    position: relative;
+    top: 100px;
+    left: 32px;
+}
+#nuke{
+    padding: 26px;
+    position: relative;
+    top: 130px;
+    left: 32px;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+}
+
+.navbutton:hover {
+    background-color: rgb(163, 163, 163); /* Background color on hover */    
+}
+.navbar{
+    z-index: 3;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    background-color: #747474;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-right: 3px solid black;
+}
+
+.map-container {
+    border: 3px solid rgb(145, 145, 145);
+    position: relative;
+    width: 850px;
+    height: 850px;
+}
+
+.title{
+    position: absolute;
+    top: -111px;
+    left: 350px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.map {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    z-index: 1; 
+}
+
+.node {
+    position: absolute;
+    z-index: 2;
+}
+
+#cat {
+    position: absolute;
+    left: 400px;
+    top:331px;
+}
+
+#long-doors {
+    right:251px;
+    bottom:373px;
+}
+
+#bdoors {
+    left: 208px;
+    top:187px;
+}
+
+#a-cross {
+    right: 150px;
+    top:193px;
+}
+
+#ct-a {
+    right:250px;
+    top:185px;
+}
+
+#b-window {
+    left: 208px;
+    top:97px;
+}
+
+#bplat {
+    left: 92px;
+    top:130px;
+}
+
+#cta-longcorner {
+    right: 135px;
+    bottom:455px;
+}
+
+#node9 {
+    left: 279px;
+    bottom:349px;
+}
+
+#mid2b {
+    left: 400px;
+    top:195px;
+}
+
+#middoors {
+    left: 395px;
+    top:290px;
+}
+
+#middoors2 {
+    left: 375px;
+    top:292px;
+}
+
+
+#cta-long1way {
+    right: 150px;
+    top:240px;
+}
+
+#goose{
+right:170px;
+top:75px;
+}
+
+#palm{
+    left: 400px;
+    bottom:331px;
+}
+
+.node img {
+    display: block;
+    width: 20px; /* Set a fixed size for testing */
+    height: 20px; /* Set a fixed size for testing */
+}
