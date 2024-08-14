@@ -10,6 +10,7 @@ html, body {
 
 .navbutton {
     
+    max-height: 80px;
     background-color: white;
     border: 4px solid black; /* Border color and width */
     border-radius: 5px; /* Rounded corners */
@@ -22,40 +23,43 @@ html, body {
     cursor: pointer; /*home Pointer cursor on hover */
 }
 
+h1{
+    text-align: center;
+}
+
+span.navbutton{
+width: 100px;
+left: 30px;
+}
+
 #homebutton{
     position: relative;
     top: 30px;
-    left: 32px;
 }
+
 #mirage{
-    padding: 13px;
     position: relative;
     top: 50px;
-    left: 32px;
 }
+
 #inferno{
-    padding: 11px;
     position: relative;
     top: 70px;
-    left: 32px;
 }
+
 #dust{
-    padding: 16px;
     position: relative;
     top: 90px;
-    left: 32px;
 }
+
 #vertigo{
-    padding: 11px;
     position: relative;
-    top: 100px;
-    left: 32px;
+    top: 110px;
 }
+
 #nuke{
-    padding: 26px;
     position: relative;
     top: 130px;
-    left: 32px;
 }
 
 .button{
@@ -80,10 +84,10 @@ html, body {
 
 .map-container {
     border: 3px solid rgb(145, 145, 145);
-    position: relative;
+    position: absolute;
     width: 850px;
     height: 850px;
-    right: 170px;
+    left: 300px;
 }
 
 .title{
@@ -185,6 +189,6 @@ top:75px;
 
 .node img {
     display: block;
-    width: 20px; /* Set a fixed size for testing */
-    height: 20px; /* Set a fixed size for testing */
+    width: 20px; 
+    height: 20px; 
 }
