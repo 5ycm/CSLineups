@@ -75,45 +75,56 @@ left: 325px;
 }
 
 #close{
-
+    bottom: 300px;
+    left: 583px;
 }
 
 #topmid{
-
+    bottom: 273px;
+    left: 570px;
 }
 
 #ashort{
-
+    bottom: 230px;
+    left: 583px;
 }
 
 #graveyard{
-
+    bottom: 230px;
+    right: 70px;
 }
 
 #cemetary{
-
+    bottom: 170px;
+    right: 60px;
 }
 
 #backsitea{
-
+    bottom: 330px;
+    right: 98px;
 }
 
 #window{
-
+    bottom: 165px;
+    right: 328px;
 }
 
 #pit{
-
+    bottom: 130px;
+    right: 60px;
 }
 
 #balcony{
-
+    bottom: 152px;
+    right: 150px;
 }
 
 #library{
-
+    bottom: 375px;
+    right: 60px;
 }
 
 #arch{
-
+    bottom: 405px;
+    right: 179px;
 }
