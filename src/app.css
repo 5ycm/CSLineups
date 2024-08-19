@@ -98,7 +98,7 @@ left: 27px;
 }
 
 .title{
-    border: 3px solid rgb(145,145,145);
+    border: 0px solid rgb(145,145,145);
     box-shadow: 1px 1px 4px;
     line-height: 1px;
     position: absolute;
