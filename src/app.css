@@ -26,6 +26,10 @@ html, body {
 h1{
     text-align: center;
 }
+#testing{
+    position: absolute;
+    right: 400px;
+}
 
 span.navbutton{
 width: 100px;
@@ -83,16 +87,26 @@ left: 27px;
 }
 
 .map-container {
-    border: 3px solid rgb(145, 145, 145);
+    border: 3px solid rgb(145, 145, 145) ;
     position: absolute;
     width: 850px;
     height: 850px;
     left: 300px;
+    box-shadow: 1px 1px 6px;
+    border-radius: 10px;
+    filter: blur(.2px);
 }
 
 .title{
+    border: 3px solid rgb(145,145,145);
+    box-shadow: 1px 1px 4px;
+    line-height: 1px;
     position: absolute;
-    top: -111px;
+    padding: 0 10px;
+    top: -85px;
+    filter: blur(.2px);
+    border-radius:10px;
+
     left: 350px;
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
