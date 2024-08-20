@@ -1,4 +1,17 @@
 console.log("Script is running");
-document.getElementById('buttons').onclick = function(){
-    document.getElementById('testing').textContent = 'LETS GOOO';
+
+function handleButtonClick(event){
+    let url = this.getAttribute('data-url');
+    replaceSrc(url);
 }
+
+const buttons = document.querySelectorAll('.node');
+buttons.forEach(function(button){
+    button.onclick = handleButtonClick;
+})
+
+function replaceSrc(url){
+    document.querySelector('iframe').setAttribute('src',url+'?autoplay=1&mute=1');
+    console.log(url+' has been added');
+}
+
