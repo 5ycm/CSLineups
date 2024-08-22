@@ -12,11 +12,12 @@
     position: absolute;
     right: 90px;
     border: 3px solid black;
-    height: 889px;
-    width: 500px;
-    overflow:hidden;
+    height: 84.5vh;
+    width: 47.52vh;
 }
-
+#iFrameID{
+    justify-content: center;
+}
 #quad {
     top: 68px;
     left: 56px;
