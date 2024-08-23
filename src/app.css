@@ -25,13 +25,9 @@ h1{
 }
 
 #closerVideo{
-    position:absolute;
-    left: -6%;
-    top: -8%;
-    font-weight: 700;
-    font-family:sans-serif;
-    color: #000000;
-    font-size: 32px;
+    position:fixed;
+    left: 1200px;
+    top: 60px;
 }
 
 #testing{
