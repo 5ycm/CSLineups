@@ -7,13 +7,16 @@ function handleButtonClick(event){
 
 const buttons = document.querySelectorAll('.node');
 buttons.forEach(function(button){
+    if(button.getAttribute('data-url') != null){
     button.onclick = handleButtonClick;
+    }
 })
 
 function replaceSrc(url,callback){
     document.querySelector('iframe').setAttribute('src',url+'?autoplay=1&mute=1');
     console.log(url+' has been added');
     callback();
+    toClose();
 }
 
 function setBorder(){
@@ -24,4 +27,11 @@ function setBorder(){
         document.getElementById('videoFrame').style.border = '3px solid black';
     },200);
 }
+
+function toClose(){
+document.getElementById('closerVideo').onclick = function(){
+    document.getElementById('closerVideo').src = "";
+    document.getElementById('iFrameID').src = "";
+    document.getElementById('videoFrame').style.border = '0px solid black';
+}};
 

@@ -7,18 +7,6 @@
     top: 64px;
     left: 194px;
 }
-
-#videoFrame{
-    box-sizing: border-box;
-    position: absolute;
-    right: 90px;
-    border: 0px solid black;
-    height: 84.5vh;
-    width: 47.52vh;
-}
-#iFrameID{
-    justify-content: center;
-}
 #quad {
     top: 68px;
     left: 56px;

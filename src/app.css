@@ -20,6 +20,20 @@ html, body {
     cursor: pointer; /*home Pointer cursor on hover */
 }
 
+#videoFrame{
+    box-sizing: border-box;
+    position: absolute;
+    right: 90px;
+    border: 0px solid black;
+    height: 84.5vh;
+    width: 47.52vh;
+    bottom: 80px;
+}
+
+#iFrameID{
+    justify-content: center;
+}
+
 h1{
     text-align: center;
 }
