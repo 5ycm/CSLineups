@@ -13,7 +13,7 @@ html, body {
     border-radius: 5px; /* Rounded corners */
     padding: 10px 20px; /* Spacing inside the button */
     text-decoration: none; /* Remove underline from links if used */
-    display: inline-block; /* Align buttons side by side */
+    display: block; /* Align buttons side by side */
     font-size: 16px; /* Font size */
     font-family: Arial, sans-serif; /* Font family */
     transition: background-color 0.3s, border-color 0.3s; /* Smooth transition on hover */
@@ -34,8 +34,9 @@ html, body {
     justify-content: center;
 }
 
-h1{
+#navbar a .navbutton h1{
     text-align: center;
+    margin: 20px -20px;
 }
 
 #closerVideo{
@@ -52,6 +53,7 @@ h1{
 span.navbutton{
     width: 100px;
     left: 27px;
+    text-align: center;
 }
 
 #homebutton{
@@ -85,7 +87,7 @@ span.navbutton{
 }
 
 #ancient{
-    position: relative;
+    position: relative;  
     top: 150px;
 }
 .button{
