@@ -122,6 +122,9 @@ span.navbutton{
     filter: blur(.2px);
     background-color: white;
 }
+#closerVideo:hover{
+    cursor: pointer;
+}
 
 .title{
     border: 0px solid rgb(145,145,145);
