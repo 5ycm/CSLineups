@@ -84,6 +84,10 @@ span.navbutton{
     top: 130px;
 }
 
+#ancient{
+    position: relative;
+    top: 150px;
+}
 .button{
     text-decoration: none;
     color: black;
@@ -150,6 +154,7 @@ span.navbutton{
     height: 20px; 
 }
 .node img:hover{
+    cursor: pointer;
     width: 21px;
     height: 21px;
     justify-content: center;
