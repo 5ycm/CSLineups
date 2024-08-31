@@ -90,6 +90,11 @@ span.navbutton{
     position: relative;  
     top: 150px;
 }
+
+#anubis{
+    position: relative;
+    top: 170px;
+}
 .button{
     text-decoration: none;
     color: black;
