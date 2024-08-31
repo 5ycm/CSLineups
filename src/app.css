@@ -152,15 +152,17 @@ span.navbutton{
     z-index: 2;
 }
 
+
 .node img {
+    transition: transform 0.3s ease;
     display: block;
     width: 20px; 
     justify-content: center;
     height: 20px; 
 }
 .node img:hover{
+    transform: scale(1.50);
+    transform-origin: center center;
     cursor: pointer;
-    width: 21px;
-    height: 21px;
     justify-content: center;
 }
