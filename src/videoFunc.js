@@ -20,6 +20,7 @@ function replaceSrc(url,callback,buttonClicked){
         }
         else{
             button.querySelector('img').src = "images/reddot.png";
+            button.querySelector('img').style.transform = 'scale(1.50)';
         }
     });
        
@@ -39,7 +40,11 @@ function setBorder(){
 
 function toClose(){
 document.getElementById('closerVideo').onclick = function(){
-    buttons.forEach(button=> {button.style.visibility = 'visible'; button.querySelector('img').src='images/dot.png'});
+    buttons.forEach(button=> {
+        button.style.visibility = 'visible';
+        button.querySelector('img').src='images/dot.png';
+        button.querySelector('img').style.transform = '';
+    });
     document.getElementById('closerVideo').src = "";
     document.getElementById('iFrameID').src = "";
     document.getElementById('videoFrame').style.border = '0px solid black';

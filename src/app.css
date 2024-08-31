@@ -150,8 +150,18 @@ span.navbutton{
 .node {
     position: absolute;
     z-index: 2;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
+.node.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.node.visible {
+    opacity: 1;
+    visibility: visible;
+}
 
 .node img {
     transition: transform 0.3s ease;
@@ -160,6 +170,7 @@ span.navbutton{
     justify-content: center;
     height: 20px; 
 }
+
 .node img:hover{
     transform: scale(1.50);
     transform-origin: center center;
