@@ -1,5 +1,6 @@
 console.log("Script is running");
 
+let buttonClickedVar = null;
 function handleButtonClick(event){
     let url = this.getAttribute('data-url');
     replaceSrc(url,setBorder,this);
@@ -24,13 +25,14 @@ function replaceSrc(url,callback,buttonClicked){
             button.style.pointerEvents = 'none';     
         }
         else{
+            buttonClickedVar = button;
             button.querySelector('img').src = "images/reddot.png";
             button.querySelector('img').style.transform = 'scale(2.4)';
         }
     });
        
     console.log(url+' has been added');
-    callback(toClose());
+    callback(toClose);
 }
 
 function setBorder(callback){
@@ -43,15 +45,26 @@ function setBorder(callback){
     callback();
 }
 
-function toClose(){
-document.getElementById('closerVideo').onclick = function(){
 
+function toClose(){
+    document.getElementById('closerVideo').onclick = closing;
+    document.getElementById('map').onclick = closing;
+}
+
+function closing(){
     document.getElementById('closerVideo').style.visibility = 'hidden';
     document.getElementById('iFrameID').style.visibility = 'hidden';
     document.getElementById('videoFrame').style.visibility = 'hidden';
-
     buttons.forEach(button=> {
         button.style.pointerEvents = 'auto';  
+        if(button == buttonClickedVar){
+            button.querySelector('img').style.transform ='';
+            setTimeout(()=> {
+                button.querySelector('img').src='images/dot.png';
+                buttonClickedVar = null;
+            },150)
+            return;
+        }
         button.style.visibility = 'visible';
         button.querySelector('img').src='images/dot.png';
         button.querySelector('img').style.transform = '';
@@ -60,5 +73,5 @@ document.getElementById('closerVideo').onclick = function(){
     document.getElementById('iFrameID').src = "";
     document.getElementById('videoFrame').style.border = '0px solid black';
     document.getElementById('videoFrame').style.pointerEvents = 'none'; 
-}};
+}
 

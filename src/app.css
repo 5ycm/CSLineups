@@ -7,17 +7,16 @@ html, body {
 background-color: #2e2e2e;}
 
 .navbutton {
-    max-height: 80px;
     background-color: white;
-    border: 4px solid black; /* Border color and width */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 20px; /* Spacing inside the button */
-    text-decoration: none; /* Remove underline from links if used */
-    display: block; /* Align buttons side by side */
-    font-size: 16px; /* Font size */
-    font-family: Arial, sans-serif; /* Font family */
-    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition on hover */
-    cursor: pointer; /*home Pointer cursor on hover */
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: block;
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    transition: background-color 0.3s, border-color 0.3s; 
+    cursor: pointer;
 }
 
 #videoFrame{
@@ -50,10 +49,6 @@ background-color: #2e2e2e;}
     transform: scale(1.45);
 }
 
-#testing{
-    position: absolute;
-    right: 400px;
-}
 
 span.navbutton{
     width: 100px;
@@ -106,7 +101,7 @@ span.navbutton{
 }
 
 .navbutton:hover {
-    background-color: rgb(163, 163, 163); /* Background color on hover */    
+    background-color: rgb(163, 163, 163); 
 }
 .navbar{
     z-index: 3;
