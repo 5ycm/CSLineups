@@ -14,8 +14,8 @@
 }
 
 #a-main {
-    top: 384px;
-    right: 180px;
+    top: 386px;
+    right: 198px;
 }
 
 #mid {
@@ -23,9 +23,9 @@
     left: 440px;
 }
 
-#water {
-    bottom: 330px;
-    right: 320px ;
+#mid2{
+    top: 269px;
+    left: 473px;
 }
 
 #top-mid {
@@ -39,7 +39,7 @@
 }
 
 #bridge {
-    bottom: 366px;
+    bottom: 346px;
     left: 414px;
 }
 
@@ -64,18 +64,14 @@
 }
 
 #gate {
-    bottom: 362px;
-    left: 174px;
-}
-#b-con1 {
-    bottom: 359px;
-    left: 284px;
+    bottom: 356px;
+    left: 168px;
 }
 #b-con2 {
     bottom: 359px;
     left: 318px;
 }
 #b-con3 {
-    bottom: 326px;
-    left: 366px;
+    bottom: 320px;
+    left: 340px;
 }
