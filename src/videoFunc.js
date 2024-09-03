@@ -36,12 +36,15 @@ function replaceSrc(url,callback,buttonClicked){
 }
 
 function setBorder(callback){
-    document.getElementById('videoFrame').style.pointerEvents = 'auto';
+    document.getElementById('videoFrame').style.visibility = 'visible';
     setTimeout(() => {
-         document.getElementById('closerVideo').src = 'images/x-symbol.png'
-         document.getElementById('videoFrame').style.border = '3px solid white';
+        document.getElementById('closerVideo').src = 'images/x-symbol.png'
+        document.getElementById('videoFrame').style.pointerEvents = 'auto';
+        document.getElementById('videoFrame').style.border = '3px solid white';
+        document.getElementById('videoFrame').style.boxShadow = '1px 1px 20px 3px';
+        
     },200); 
-        document.getElementById('videoFrame').style.visibility = 'visible';
+        
     callback();
 }
 
@@ -62,12 +65,14 @@ function closing(){
             setTimeout(()=> {
                 button.querySelector('img').src='images/dot.png';
                 buttonClickedVar = null;
-            },150)
+            },170)
             return;
         }
         button.style.visibility = 'visible';
         button.querySelector('img').src='images/dot.png';
         button.querySelector('img').style.transform = '';
+        document.getElementById('videoFrame').style.boxShadow = '0px 0px 0px';
+
     });
     document.getElementById('closerVideo').src = "";
     document.getElementById('iFrameID').src = "";
