@@ -4,7 +4,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+background-color: #2e2e2e;}
 
 .navbutton {
     max-height: 80px;
@@ -21,11 +21,12 @@ html, body {
 }
 
 #videoFrame{
+    border-radius: 4px;
     box-sizing: border-box;
     position: absolute;
     right: 90px;
-    border: 0px solid black;
-    height: 84.5vh;
+    visibility: hidden;
+    height: 84vh;
     width: 47.52vh;
     bottom: 80px;
 }
@@ -41,8 +42,12 @@ html, body {
 
 #closerVideo{
     position:fixed;
-    left: 1200px;
-    top: 60px;
+    left: 1210px;
+    top: 58px;
+    transform: scale(1.25);
+}
+#closerVideo:hover {
+    transform: scale(1.45);
 }
 
 #testing{
@@ -132,7 +137,8 @@ span.navbutton{
 }
 
 .title{
-    border: 0px solid rgb(145,145,145);
+    background-color: white;
+    border: 2px solid rgb(145, 145, 145);
     box-shadow: 1px 1px 4px;
     line-height: 1px;
     position: absolute;
@@ -169,7 +175,7 @@ span.navbutton{
 }
 
 .node img {
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
     display: block;
     width: 20px; 
     justify-content: center;
