@@ -8,7 +8,7 @@ function handleButtonClick(event){
 
 const buttons = document.querySelectorAll('.node');
 buttons.forEach(function(button){
-    if (button.getAttribute('data-url') != null) {
+    if (button.getAttribute('data-url') != null && button.getAttribute('data-url') != "") {
         button.onclick = handleButtonClick;
     }
 })

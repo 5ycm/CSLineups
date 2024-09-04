@@ -3,10 +3,16 @@
     left: 100px;
 }
 
+#bt{
+    top: 360px;
+    left: 158px;
+}
+
 #pillar {
     top: 64px;
     left: 194px;
 }
+
 #quad {
     top: 68px;
     left: 56px;
@@ -21,6 +27,10 @@
     left: 255px;
     top: 192px;
 }
+#electric2 {
+    left: 255px;
+    top: 110px;
+}
 
 #white {
     left: 54px;
@@ -32,8 +42,8 @@
     top: 196px;
 }
 #ct-b{
-    left: 402px;
-    top: 102px;
+    left: 350px;
+    top: 144px;
 }
 #ct{
     left: 460px;
@@ -54,6 +64,10 @@
 #new-door{
     right: 304px;
     bottom: 340px;
+}
+#ramp{
+    right: 282px;
+    bottom: 260px;
 }
 #asite{
     right: 162px;
@@ -78,4 +92,8 @@
 #t-ramppush{
     bottom: 436px;
     left: 320px;
+}
+#sidehall{
+    bottom: 166px;
+    right: 355px;
 }
