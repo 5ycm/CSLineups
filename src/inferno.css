@@ -23,7 +23,6 @@ top: 176px;
 left: 404px;
 }
 
-
 #quad{
 top: 195px;
 left: 350px;
@@ -60,8 +59,8 @@ left: 325px;
 }
 
 #bottommid{
-    bottom: 284px;
-    left: 368px;
+    bottom: 328px;
+    left: 358px;
 }
 
 #secondmid{
@@ -70,13 +69,8 @@ left: 325px;
 }
 
 #along{
-    bottom: 375px;
-    left: 596px;
-}
-
-#close{
-    bottom: 300px;
-    left: 583px;
+    bottom: 355px;
+    left: 590px;
 }
 
 #topmid{
@@ -110,13 +104,13 @@ left: 325px;
 }
 
 #pit{
-    bottom: 130px;
-    right: 60px;
+    bottom: 160px;
+    right: 98px;
 }
 
 #balcony{
-    bottom: 152px;
-    right: 150px;
+    bottom: 196px;
+    right: 130px;
 }
 
 #library{
