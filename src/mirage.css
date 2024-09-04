@@ -36,10 +36,14 @@
     top: 120px;
 }
 
-#bench{
+#benchdeep{
     position: absolute;
     left: 26px;
     top: 203px;
+}
+#bench{
+    left: 74px;
+    top: 168px;
 }
 
 #CT{
@@ -66,18 +70,27 @@ top: 115px;
 left: 154px;
 }
 
+#jungle2{
+    bottom: 260px;  
+    left: 400px;
+}
+
 #appsDeep{
     position: absolute;
-    top: 112px;
-    left: 210px;
+    top: 117px;
+    left: 250px;
 }
 
 #topmidtop{
     position: absolute;
-    left: 575px;
-    top: 335px;
+    left: 540px;
+    top: 345px;
 }
 
+#topmidd{
+    left: 590px;
+    top: 270px;
+}
 #topmidbottom{
     left: 575px;
     bottom: 400px;
