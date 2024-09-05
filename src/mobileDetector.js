@@ -10,4 +10,4 @@ setInterval(function() {
   if(boolChecker){
     document.location="mobileDetected.html";
   }
-}, 500);
+}, 200);
