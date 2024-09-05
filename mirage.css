@@ -1,0 +1,115 @@
+/*cat, window, con, market, van, bench, CT, stairs, jungle, market, topmid, underpass, getleft, getright*/
+
+#cat {
+    position: absolute;
+    left: 375px;
+    top:331px;
+}
+
+#window{
+    position: absolute;
+    left: 297px;
+    top: 386px;
+}
+
+#con{
+    position: absolute;
+    left: 400px;
+    bottom: 315px;
+}
+
+#marketWindow{
+    position: absolute;
+    left: 152px;
+    top: 318px;
+}
+
+#marketDoor{
+    position: absolute;
+    top:318px;
+    left:71px;
+}
+
+#van{
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+
+#benchdeep{
+    position: absolute;
+    left: 26px;
+    top: 203px;
+}
+#bench{
+    left: 74px;
+    top: 168px;
+}
+
+#CT{
+    position: absolute;
+    bottom: 100px;
+    left: 346px;
+}
+
+#stairs{
+    position: absolute;
+    left: 440px;
+    bottom: 255px;
+}
+
+#jungle{
+    position: absolute;
+    bottom: 284px;
+    left: 365px;
+}
+
+#apps{
+position: absolute;
+top: 115px;
+left: 154px;
+}
+
+#jungle2{
+    bottom: 260px;  
+    left: 400px;
+}
+
+#appsDeep{
+    position: absolute;
+    top: 117px;
+    left: 250px;
+}
+
+#topmidtop{
+    position: absolute;
+    left: 540px;
+    top: 345px;
+}
+
+#topmidd{
+    left: 590px;
+    top: 270px;
+}
+#topmidbottom{
+    left: 575px;
+    bottom: 400px;
+}
+
+#underpass{
+    left: 332px;
+    top: 376px;
+}
+
+#getleft{
+    top: 171px;
+    left: 235px;
+}
+#getright{
+    top: 226px;
+    left: 235px;
+}
+#midcon{
+    left: 400px;
+    bottom: 402px;
+}

@@ -1,0 +1,99 @@
+#b-stairs {
+    top: 300px;
+    left: 100px;
+}
+
+#bt{
+    top: 360px;
+    left: 158px;
+}
+
+#pillar {
+    top: 64px;
+    left: 194px;
+}
+
+#quad {
+    top: 68px;
+    left: 56px;
+}
+
+#double {
+    top: 230px;
+    left: 126px;
+}
+
+#electric {
+    left: 255px;
+    top: 192px;
+}
+#electric2 {
+    left: 255px;
+    top: 110px;
+}
+
+#white {
+    left: 54px;
+    top: 230px;
+}
+
+#b-connector {
+    left: 366px;
+    top: 196px;
+}
+#ct-b{
+    left: 350px;
+    top: 144px;
+}
+#ct{
+    left: 460px;
+    top: 250px;
+}
+#middle{
+    top: 295px;
+    left: 420px;
+}
+#backroom{
+    top: 350px;
+    right: 104px;
+}
+#heaven{
+    top: 350px;
+    right: 150px;
+}
+#new-door{
+    right: 304px;
+    bottom: 340px;
+}
+#ramp{
+    right: 282px;
+    bottom: 260px;
+}
+#asite{
+    right: 162px;
+    bottom: 365px;
+}
+#sandbags{
+    bottom: 93px;
+    right: 104px;
+}
+#boost{
+    bottom: 367px;
+    right: 94px;
+}
+#ct-lobby{
+    right: 336px;
+    top: 340px;
+}
+#a-lobby{
+    bottom: 410px;
+    right: 206px;
+}
+#t-ramppush{
+    bottom: 436px;
+    left: 320px;
+}
+#sidehall{
+    bottom: 166px;
+    right: 355px;
+}
