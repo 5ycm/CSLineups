@@ -27,7 +27,7 @@ function replaceSrc(url,callback,buttonClicked){
         else{
             buttonClickedVar = button;
             button.querySelector('img').src = "images/reddot.png";
-            button.querySelector('img').style.transform = 'scale(2.4)';
+            button.querySelector('img').style.transform = 'scale(4)';
         }
     });
        
