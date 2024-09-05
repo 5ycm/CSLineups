@@ -182,6 +182,9 @@ span.navbutton {
     .map-container{
         visibility: hidden;
     }
+    .node img{
+        visibility: hidden;
+    }
     #videoFrame {
         height: 78vh;
         width: 44vh;
