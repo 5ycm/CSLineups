@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .button {
+            background-color: red;
+            padding: 10%;
+            min-width: 10%;
+            max-width: 100%;
+        }
+        #masterContainer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100dvw;
+            height: 100dvh;
+        }
+        #navBar {
+            background-color: aquamarine;
+            width: 10%;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            box-sizing: border-box; 
+            padding: 10px;
+            justify-content: space-evenly;
+            overflow-y: auto;
+            height:100%;
+        }
+        #mapDiv {
+            background-color: purple;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-grow:1;
+            max-height: 100%;
+        }
+        #mapContainer {
+            box-sizing: border-box;
+            background-size: cover; /* Ensure the image covers the container */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat;
+            background-image: url('images/ancientmap.png');
+            width: 80%;
+            padding-top:80%;
+            background-color: white;
+            position: relative;
+            border: 5px solid black;
+        }
+        #map {
+            width: 100%;
+            height: auto;
+        }
+        #mapNameDiv{
+            display:flex;
+            width: 100%;
+            max-height:30%;
+            justify-content:center;
+            align-items: center;
+        }
+        #mapName{
+        }
+        #videoDiv {
+            background-color: brown;
+            width: 35%;
+            height:100%;
+        }
+        .button:hover {
+            cursor: pointer;
+        }
+        .node {
+            position: absolute;
+            width: 3%; /* Fixed width for dot */
+            background-color: transparent; /* Ensure transparency */
+            top:20%;
+            left: 40%;
+        }
+        .node:hover {
+        transform: scale(1.50);
+        transform-origin: center center;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="masterContainer">
+        <div id="navBar">
+
+        </div>
+        <div id="mapDiv">
+            <div id="mapNameDiv" style="background-color: brown;">
+                <h1 id="mapName">MapName</h1>
+            </div>
+            <div id="mapContainer">
+                <img src="images/dot.png" id="cat" class="node">
+                
+            </div>
+        </div>
+        <div id="videoDiv">
+            <!-- Video content here -->
+        </div>
+    </div>
+    <script>
+        addEventListener("resize",resizedFunction);
+        function resizedFunction(){
+            let myMapDiv = document.getElementById(mapDiv);
+            let myMapDivHeight=myMapDiv.offsetHeight;
+            let myMapDivWidth=myMapDiv.offsetWidth;
+            if(myMapDivHeight<=myMapDivWidth){
+                document.getElementById(mapDiv).setAttribute(offsetHeight)= myMapDivWidth;
+            }
+            else{
+                return;
+            }
+        }
+        
+    </script>
+</body>
+</html>
